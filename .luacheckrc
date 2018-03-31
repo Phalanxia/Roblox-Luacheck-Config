@@ -58,9 +58,6 @@ stds.roblox = {
 
 ignore = {
     "212", -- Unused argument.
-    "213", -- Unused loop variable.
-    "411", -- Redefining a local variable.
-    "412", -- Redefining an argument.
     "421", -- Shadowing a local variable.
     "423", -- Shadowing a loop variable.
     "431", -- Shadowing an upvalue.
