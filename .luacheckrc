@@ -36,6 +36,7 @@ stds.roblox = {
         "NumberSequenceKeypoint",
         "PhysicalProperties",
         "Ray",
+        "Random",
         "Rect",
         "Region3",
         "Region3int16",
@@ -51,6 +52,8 @@ stds.roblox = {
         "math.clamp",
         "math.sign",
         "math.noise",
+
+        "utf8",
         "debug.profilebegin",
         "debug.profileend",
     }
@@ -58,6 +61,7 @@ stds.roblox = {
 
 ignore = {
     "212", -- Unused argument.
+    "213", -- Unused loop variable.
     "421", -- Shadowing a local variable.
     "423", -- Shadowing a loop variable.
     "431", -- Shadowing an upvalue.
@@ -67,7 +71,6 @@ ignore = {
 std = "lua51+roblox"
 
 -- prevent max line lengths
-max_line_length = 120
 max_code_line_length = false
 max_string_line_length = false
 max_comment_line_length = false
