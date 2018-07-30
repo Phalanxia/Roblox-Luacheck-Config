@@ -48,14 +48,24 @@ stds.roblox = {
         "Vector3int16",
         "DockWidgetPluginGuiInfo",
 
-        -- math library
-        "math.clamp",
-        "math.sign",
-        "math.noise",
-
+        -- libraries
         "utf8",
-        "debug.profilebegin",
-        "debug.profileend",
+
+        math = {
+            fields = {
+                "clamp",
+                "sign",
+                "noise",
+            }
+        },
+
+        debug = {
+            fields = {
+                "profilebegin",
+                "profileend",
+                "traceback",
+            }
+        }
     }
 }
 
