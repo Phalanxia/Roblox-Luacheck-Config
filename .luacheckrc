@@ -24,6 +24,7 @@ stds.roblox = {
 		"shared",
 		"workspace",
 		"plugin",
+		"setmetatable",
 
 		-- Types
 		"Axes",
